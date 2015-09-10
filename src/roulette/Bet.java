@@ -6,9 +6,17 @@ package roulette;
  * 
  * @author Robert C. Duvall
  */
-public class Bet {
+public abstract class Bet {
     private String myDescription;
     private int myOdds;
+    
+    /**
+     * Prompts for a bet and returns the String given
+     * @return
+     */
+    abstract String place();
+    
+    abstract boolean makeBet(Wheel wheel, String betChoice);
 
     /**
      * Constructs a bet with the given name and odds.
