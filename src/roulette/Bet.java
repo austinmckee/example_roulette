@@ -4,6 +4,8 @@ package roulette;
 /**
  * Represents player's attempt to bet on outcome of the roulette wheel's spin.
  * 
+ * Refactored by Austin McKee and Mike Ma
+ * 
  * @author Robert C. Duvall
  */
 public abstract class Bet {

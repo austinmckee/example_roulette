@@ -6,6 +6,8 @@ import util.ConsoleReader;
 /**
  * Plays a game of roulette.
  * 
+ * Refactored by Austin McKee and Mike Ma
+ * 
  * @author Robert C. Duvall
  */
 public class Game {
